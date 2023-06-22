@@ -6,7 +6,7 @@
 
 #### 你需要在 HMCL 的 `版本设置` -> `自动安装` 中调整 Optifine 版本或（/和） Forge 版本，或将 Optifine 或 Forge 卸载。
 
-![hmcl](/hmcl.gif)
+![hmcl](hmcl.gif)
 
 ### 其他启动器
 
