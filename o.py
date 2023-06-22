@@ -55,17 +55,17 @@ for version_entry in version_list:
     file_path = os.path.join("versionlist", file_name)
     with open(file_path, "w") as file:
         if helpforge == "nohelp":
-            file.write(f"# Minecraft `{mcversion_value}` OptiFine `{type_value}_{patch_value}` 不支持**任何** Forge 版本\n\n")
+            file.write(f"# Minecraft`{mcversion_value}`OptiFine`{type_value}_{patch_value}`不支持**任何** Forge 版本\n\n")
             file.write("## 你可以前往 [→此处←](./all.md) 查看全部支持情况，找一个相邻的版本进行调整。\n\n")
             file.write("### HMCL\n\n")
-            file.write("#### 你需要在 HMCL 的 `版本设置` -> `自动安装` 中调整 Optifine 版本或（/和） Forge 版本，或将 Optifine 或 Forge 卸载。\n\n![hmcl](hmcl.gif)\n\n")
+            file.write("#### 你需要在 HMCL 的 `版本设置` -> `自动安装` 中调整 Optifine 版本或（/和） Forge 版本，或将 Optifine 或 Forge 卸载。\n\n![hmcl](https://zkitefly.github.io/optifine-forge-support-list/hmcl.gif)\n\n")
             file.write("### 其他启动器\n\n")
             file.write("#### 重新安装 Optifine 或 Forge 选其中一个。\n\n")
             file.write(f"##### [→点此处下载该版本 Optifine←](https://optifine.cn/download/{filename})\n\n")
         else:
-            file.write(f"# Minecraft `{mcversion_value}` OptiFine `{type_value}_{patch_value}` 支持 `{helpforge}` 版本\n\n")
+            file.write(f"# Minecraft`{mcversion_value}`OptiFine`{type_value}_{patch_value}`支持`{helpforge}`版本\n\n")
             file.write("### HMCL\n\n")
-            file.write("#### 你需要在 HMCL 的 `版本设置` -> `自动安装` 中调整 Optifine 版本或（/和） Forge 版本。\n\n![hmcl](hmcl.gif)\n\n")
+            file.write("#### 你需要在 HMCL 的 `版本设置` -> `自动安装` 中调整 Optifine 版本或（/和） Forge 版本。\n\n![hmcl](https://zkitefly.github.io/optifine-forge-support-list/hmcl.gif)\n\n")
             file.write("### 其他启动器\n\n")
             file.write("#### 重新安装 Optifine 和 Forge，安装时请留意版本！\n\n")
             file.write(f"##### [→点此处下载该版本 Optifine←](https://optifine.cn/download/{filename}) | [→点击此处下载该版本所支持的 Forge 安装器←](https://maven.minecraftforge.net/net/minecraftforge/forge/{mcversion_value}-{forged}/forge-{mcversion_value}-{forged}-installer.jar)\n\n")
