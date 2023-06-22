@@ -47,6 +47,6 @@ for version_entry in version_list:
 
     with open('all.md', 'a') as file:
         if helpforge == 'nohelp':
-            file.write(f'### Minecraft`{mcversion_value}`OptiFine`{type_value}_{patch_value}`不支持**任何** Forge 版本，[下载该版本 Optifine](https://optifine.cn/download/{filename})\n\n')
+            file.write(f'### Minecraft `{mcversion_value}` OptiFine `{type_value}_{patch_value}` 不支持**任何** Forge 版本，[下载该版本 Optifine](https://optifine.cn/download/{filename})\n\n')
         else:
-            file.write(f'### Minecraft`{mcversion_value}`OptiFine`{type_value}_{patch_value}`支持`{helpforge}`版本，[下载该版本 Optifine](https://optifine.cn/download/{filename}) | [下载该版本支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/{mcversion_value}-{forged}/forge-{mcversion_value}-{forged}-installer.jar)\n\n')
+            file.write(f'### Minecraft `{mcversion_value}` OptiFine `{type_value}_{patch_value}` 支持 `{helpforge}` 版本，[下载该版本 Optifine](https://optifine.cn/download/{filename}) | [下载该版本支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/{mcversion_value}-{forged}/forge-{mcversion_value}-{forged}-installer.jar)\n\n')
