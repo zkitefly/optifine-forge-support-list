@@ -14,7 +14,7 @@ if os.path.exists('all.md'):
 
 # 创建all.md文件并写入标题
 with open('all.md', 'w') as file:
-    file.write('# Optifine 所支持 Forge 版本的列表\n\n**你可以点击上方蓝色链接前往搜索**\n\n')
+    file.write('# Optifine 所支持 Forge 版本的列表\n\n**## ↑你可以点击上方蓝色链接前往搜索↑**\n\n')
 
 # 遍历 versionList.json 中的每个元素
 for version_entry in version_list:
@@ -47,6 +47,6 @@ for version_entry in version_list:
 
     with open('all.md', 'a') as file:
         if helpforge == 'nohelp':
-            file.write(f'### Minecraft {mcversion_value} OptiFine {type_value}_{patch_value} 不支持**任何** Forge 版本，[点此处该版本下载 Optifine](https://optifine.cn/download/{filename})\n\n')
+            file.write(f'### Minecraft `{mcversion_value}` OptiFine `{type_value}_{patch_value}` 不支持**任何** Forge 版本，[下载该版本 Optifine](https://optifine.cn/download/{filename})\n\n')
         else:
-            file.write(f'### Minecraft {mcversion_value} OptiFine {type_value}_{patch_value} 支持 {helpforge} 版本，[点此处下载该版本 Optifine](https://optifine.cn/download/{filename}) | [点击此处下载该版本所支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/{mcversion_value}-{forged}/forge-{mcversion_value}-{forged}-installer.jar)\n\n')
+            file.write(f'### Minecraft `{mcversion_value}` OptiFine `{type_value}_{patch_value}` 支持 `{helpforge}` 版本，[下载该版本 Optifine](https://optifine.cn/download/{filename}) | [下载该版本支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/{mcversion_value}-{forged}/forge-{mcversion_value}-{forged}-installer.jar)\n\n')
