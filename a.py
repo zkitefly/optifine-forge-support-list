@@ -14,7 +14,7 @@ if os.path.exists('all.md'):
 
 # 创建all.md文件并写入标题
 with open('all.md', 'w') as file:
-    file.write('# Optifine 所支持 Forge 版本的列表\n\n**## ↑你可以点击上方蓝色链接前往搜索↑**\n\n')
+    file.write('# Optifine 所支持 Forge 版本的列表\n\n## ↑你可以点击上方蓝色链接前往搜索↑\n\n')
 
 # 遍历 versionList.json 中的每个元素
 for version_entry in version_list:
