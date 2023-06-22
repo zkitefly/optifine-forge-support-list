@@ -2,25 +2,6 @@
 
 **你可以点击上方蓝色链接前往搜索**
 
-<body>
-<form>
-  <div>
-    <input
-      type="search"
-      type="search"
-      id="mySearch"
-      placeholder="如输入1.20.1"
-      required />
-      <button type="button" onclick="ss()">搜索本页面</button>
-  </div>
-</form>
-  <script>
-    function ss() {
-      var search = "https://zkitefly.github.io/optifine-forge-support-list/all.html#:~:text=" + mySearch;
-      window.location.href = search;
-    }
-  </script>
-</body>
 ### Minecraft 1.13.2 OptiFine HD_U_E7 不支持**任何** Forge 版本，[点此处该版本下载 Optifine](https://optifine.cn/download/OptiFine_1.13.2_HD_U_E7.jar)
 
 ### Minecraft 1.13.2 OptiFine HD_U_E6 不支持**任何** Forge 版本，[点此处该版本下载 Optifine](https://optifine.cn/download/OptiFine_1.13.2_HD_U_E6.jar)
