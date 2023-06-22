@@ -11,7 +11,7 @@ on:
     - cron: '0 * * * *'
 
 jobs:
-  update_resources:
+  update_version:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -22,7 +22,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'  # 设置所需的Python版本
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
@@ -31,8 +31,12 @@ jobs:
 
       - name: Fetch version
         run: |
+          echo "run o"
           python3 o.py
+          echo "Done!"
+          echo "run a"
           python3 a.py
+          echo "Done!"
       - name: Commit
         shell: bash
         run: |
