@@ -30,7 +30,9 @@ jobs:
           pip install requests
 
       - name: Fetch version
-        run: python3 o.py
+        run: |
+          python3 o.py
+          python3 a.py
       - name: Commit
         shell: bash
         run: |

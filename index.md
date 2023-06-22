@@ -1,7 +1,7 @@
 # 请输入 Minecraft 版本和 Optifine 版本
 <body>
   <form>
-    <label for="value1">Minecraft 版本（例如 1.20.1）       </label>
+    <label for="value1">Minecraft 版本（例如 1.20.1）</label>
     <input type="text" id="value1" name="value1" required><br><br>
     
     <label for="value2">Optifine 版本（例如 HD_U_I5_pre4）</label>
@@ -23,3 +23,5 @@
     }
   </script>
 </body>
+
+[→点击此处查看全部支持情况←](./all.md)
