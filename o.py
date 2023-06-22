@@ -49,7 +49,7 @@ for version_entry in version_list:
     file_path = os.path.join("versionlist", file_name)
     with open(file_path, "w") as file:
         if helpforge == "nohelp":
-            file.write(f"# {mcversion_value} {type_value}_{patch_value} 不支持**任何**Forge 版本\n\n")
+            file.write(f"# {mcversion_value} {type_value}_{patch_value} 不支持**任何** Forge 版本\n\n")
             file.write("### 你需要在 HMCL 的 `版本设置` -> `自动安装` 中卸载 Optifine 或 Forge。\n")
         else:
             file.write(f"# {mcversion_value} {type_value}_{patch_value} 支持 {helpforge} 版本\n\n")
