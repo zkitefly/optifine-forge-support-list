@@ -1,3 +1,3 @@
-# 21w08b HD_U_G9_pre4 不支持**任何**Forge 版本
+# 21w08b HD_U_G9_pre4 不支持**任何** Forge 版本
 
 ### 你需要在 HMCL 的 `版本设置` -> `自动安装` 中卸载 Optifine 或 Forge。
