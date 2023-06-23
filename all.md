@@ -732,7 +732,7 @@
 
 ### Minecraft `1.18.2` OptiFine `HD_U_H9_pre3` 支持 `Forge 40.2.1` 版本，[下载该版本 Optifine](https://optifine.cn/download/preview_OptiFine_1.18.2_HD_U_H9_pre3.jar) | [下载该版本支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.2.1/forge-1.18.2-40.2.1-installer.jar)
 
-### Minecraft `1.19.4` OptiFine `HD_U_I4` 支持 `Forge 45.0.43` 版本，[下载该版本 Optifine](https://optifine.cn/download/OptiFine_1.19.4_HD_U_I4.jar) | [下载该版本支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.0.43/forge-1.19.4-45.0.43-installer.jar)
+### Minecraft `1.19.4` OptiFine `HD_U_I4` 支持 `Forge 45.1.0` 版本，[下载该版本 Optifine](https://optifine.cn/download/OptiFine_1.19.4_HD_U_I4.jar) | [下载该版本支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.1.0/forge-1.19.4-45.1.0-installer.jar)
 
 ### Minecraft `1.20-pre4` OptiFine `HD_U_I5_pre1` 不支持**任何** Forge 版本，[下载该版本 Optifine](https://optifine.cn/download/preview_OptiFine_1.20-pre4_HD_U_I5_pre1.jar)
 
@@ -745,4 +745,8 @@
 ### Minecraft `1.20.1` OptiFine `HD_U_I5_pre5` 支持 `Forge 47.0.3` 版本，[下载该版本 Optifine](https://optifine.cn/download/preview_OptiFine_1.20.1_HD_U_I5_pre5.jar) | [下载该版本支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.0.3/forge-1.20.1-47.0.3-installer.jar)
 
 ### Minecraft `1.20` OptiFine `HD_U_I5_pre5` 支持 `Forge 46.0.14` 版本，[下载该版本 Optifine](https://optifine.cn/download/preview_OptiFine_1.20_HD_U_I5_pre5.jar) | [下载该版本支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20-46.0.14/forge-1.20-46.0.14-installer.jar)
+
+### Minecraft `1.20.1` OptiFine `HD_U_I5_pre6` 支持 `Forge 47.0.3` 版本，[下载该版本 Optifine](https://optifine.cn/download/preview_OptiFine_1.20.1_HD_U_I5_pre6.jar) | [下载该版本支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.0.3/forge-1.20.1-47.0.3-installer.jar)
+
+### Minecraft `1.19.2` OptiFine `HD_U_I2` 支持 `Forge 43.2.14` 版本，[下载该版本 Optifine](https://optifine.cn/download/OptiFine_1.19.2_HD_U_I2.jar) | [下载该版本支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.2.14/forge-1.19.2-43.2.14-installer.jar)
 
