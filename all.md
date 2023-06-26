@@ -750,3 +750,5 @@
 
 ### Minecraft `1.19.2` OptiFine `HD_U_I2` 支持 `Forge 43.2.14` 版本，[下载该版本 Optifine](https://optifine.cn/download/OptiFine_1.19.2_HD_U_I2.jar) | [下载该版本支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.2.14/forge-1.19.2-43.2.14-installer.jar)
 
+### Minecraft `1.18.2` OptiFine `HD_U_H9` 支持 `Forge 40.2.9` 版本，[下载该版本 Optifine](https://optifine.cn/download/OptiFine_1.18.2_HD_U_H9.jar) | [下载该版本支持的 Forge 安装器](https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.2.9/forge-1.18.2-40.2.9-installer.jar)
+
