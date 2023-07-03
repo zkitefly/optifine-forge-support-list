@@ -39,6 +39,8 @@ jobs:
           echo "run a!!"
           python3 a.py
           echo "Done!!"
+          python3 g.py
+          echo "Done!!"
       - name: Commit
         shell: bash
         run: |
