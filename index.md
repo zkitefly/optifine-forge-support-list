@@ -11,7 +11,7 @@
     function navigate() {
       var value1 = document.getElementById("value1").value;
       
-      // 构建跳转URL，这里假设使用value1和value2作为参数
+      // 构建跳转URL，这里假设使用value1作为参数
       var url = "https://zkitefly.github.io/optifine-forge-support-list/game/" + value1;
       
       // 跳转到目标页面

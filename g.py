@@ -14,8 +14,15 @@ time.sleep(2)
 if os.path.exists('game'):
     shutil.rmtree('game')
 
+# 新增步骤: 如果存在forge文件夹，则删除
+if os.path.exists('forge'):
+    shutil.rmtree('forge')
+
 # 步骤3: 创建game文件夹
 os.mkdir('game')
+
+# 新增步骤: 创建forge文件夹
+os.mkdir('forge')
 
 # 步骤4: 读取versionlist.json文件内容并赋值给version_list变量
 with open('versionlist.json', 'r') as file:
@@ -39,21 +46,23 @@ for version_entry in version_list:
         if mcversion_value == '1.9.0':
             mcversion_value = '1.9'
 
-        forge_url = f"https://bmclapi2.bangbang93.com/forge/minecraft/{mcversion_value}"
-        subprocess.run(['wget', forge_url, '-O', 'forge_info.json'])
-        time.sleep(2)
-
-        if os.path.exists('forge_info.json') and os.stat('forge_info.json').st_size > 5:
-            with open('forge_info.json', 'r') as forge_file:
+        if os.path.exists(f'forge/{mcversion_value}.json') and os.stat(f'forge/{mcversion_value}.json').st_size > 5:
+            with open(f'forge/{mcversion_value}.json', 'r') as forge_file:
                 forge_list = json.load(forge_file)
-
-            for forge_entry in forge_list:
-                forge_build = str(forge_entry.get('build'))
-                if forge_build and forge_build.split('.')[-1] == forge_value.split('#')[-1]:
-                    helpforge = f"Forge {forge_entry.get('version')}"
-                    break
         else:
-            helpforge = forge_value
+            forge_url = f"https://bmclapi2.bangbang93.com/forge/minecraft/{mcversion_value}"
+            subprocess.run(['wget', forge_url, '-O', f'forge/{mcversion_value}.json'])
+            time.sleep(2)
+
+            if os.path.exists(f'forge/{mcversion_value}.json') and os.stat(f'forge/{mcversion_value}.json').st_size > 5:
+                with open(f'forge/{mcversion_value}.json', 'r') as forge_file:
+                    forge_list = json.load(forge_file)
+
+        for forge_entry in forge_list:
+            forge_build = str(forge_entry.get('build'))
+            if forge_build and forge_build.split('.')[-1] == forge_value.split('#')[-1]:
+                helpforge = f"Forge {forge_entry.get('version')}"
+                break
     else:
         helpforge = forge_value
 
