@@ -10,7 +10,7 @@ on:
       - './o.py'
       - './a.py'
   schedule:
-    - cron: '0 * * * *'
+    - cron: '30 * * * *'
 
 jobs:
   update_version:
