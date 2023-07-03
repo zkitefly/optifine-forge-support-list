@@ -33,12 +33,12 @@ jobs:
 
       - name: Fetch version
         run: |
-          echo "run o!"
-          python3 o.py
-          echo "Done!"
-          echo "run a!!"
-          python3 a.py
-          echo "Done!!"
+          # echo "run o!"
+          # python3 o.py
+          # echo "Done!"
+          # echo "run a!!"
+          # python3 a.py
+          # echo "Done!!"
           echo "run g!!!"
           python3 g.py
           echo "Done!!!"
