@@ -1,4 +1,4 @@
-# 请输入 Minecraft 版本和 Optifine 版本
+# ↓请输入 Minecraft 版本↓
 <body>
   <form>
     <label for="value1">Minecraft 版本（例如 1.20.1）</label>
