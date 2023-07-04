@@ -4,8 +4,17 @@ import shutil
 import json
 import time
 
+def download_file(url, filename):
+    while True:
+        try:
+            subprocess.run(['wget', url, '-O', filename])
+            break
+        except:
+            print("下载失败，重新尝试...")
+            time.sleep(2)
+
 # 步骤1: 使用wget下载versionList.json并保存为versionlist.json
-subprocess.run(['wget', 'https://bmclapi2.bangbang93.com/optifine/versionList', '-O', 'versionlist.json'])
+download_file('https://bmclapi2.bangbang93.com/optifine/versionList', 'versionlist.json')
 
 # 等待2秒
 time.sleep(2)
@@ -51,7 +60,7 @@ for version_entry in version_list:
                 forge_list = json.load(forge_file)
         else:
             forge_url = f"https://bmclapi2.bangbang93.com/forge/minecraft/{mcversion_value}"
-            subprocess.run(['wget', forge_url, '-O', f'forge/{mcversion_value}.json'])
+            download_file(forge_url, f'forge/{mcversion_value}.json')
             time.sleep(2)
 
             if os.path.exists(f'forge/{mcversion_value}.json') and os.stat(f'forge/{mcversion_value}.json').st_size > 5:
