@@ -44,6 +44,7 @@ jobs:
             echo 'changed=true' >> $GITHUB_OUTPUT
           fi
       - name: Fetch version
+        if: steps.check_update.outputs.changed == 'true'
         run: |
           # echo "run o!"
           # python3 o.py
