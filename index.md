@@ -4,7 +4,7 @@
     <label for="value1">Minecraft 版本（例如 1.20.1）</label>
     <input type="text" id="value1" name="value1" required><br><br>
 
-    <label for="value2">Optifine 版本（例如 HD_U_I5_pre4）</label>
+    <label for="value2">Optifine 版本（例如 HD_U_I5_pre4，可选）</label>
     <input type="text" id="value2" name="value2" required><br><br>
     
     <button type="button" onclick="navigate()">→点击此处查询←</button>
