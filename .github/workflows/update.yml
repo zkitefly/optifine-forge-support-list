@@ -9,6 +9,7 @@ on:
       - '.github/workflows/update.yml'
       - './o.py'
       - './a.py'
+      - './optifine.py'
   schedule:
     - cron: '0 * * * *'
 
