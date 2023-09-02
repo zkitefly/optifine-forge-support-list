@@ -50,7 +50,7 @@ def main():
         entry["name"] = entry["mcversion"] + "-OptiFine_" + names[i].replace(" ", "_").replace(entry["mcversion"] + "_", "")
         versions.append(entry)
 
-    # 将数据保存为optifine.json文件
+    # 将数据保存为 optifine.json 文件
     with open("optifine.json", "w", encoding="utf-8") as file:
         json.dump(versions, file, ensure_ascii=False, indent=4)
 
