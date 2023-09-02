@@ -1,0 +1,48 @@
+OptiFine 1.9.4_HD_U_B4
+ - updated to Minecraft 1.9.4
+ - compatible with Forge #1909
+ (12.05.2016)
+
+OptiFine 1.9.2_HD_U_B3
+ - added folder selection in installer
+ - fixed "#include" for vertex shaders
+ - added custom textures for elytra, use "type=elytra" in the CIT properties
+ - added option "Details -> Dynamic FOV" - enables or disables the FOV change when flying or sprinting
+ - skip classloader injection when loaded in a Forge server
+ - added "offsetBold" in font properties (assets/minecraft/textures/font/ascii.properties), default is 1.0 for 16x and 0.5 for 32x and above
+ - updated CTM for rotated pillars (wood, quartz) to allow properties to select rotated variants
+ - fixed rotated logs with Fancy CTM
+ (10.05.2016)
+
+OptiFine 1.9.2_HD_U_B2
+ - fixed block shading with Forge
+ - added build number
+ - fixed loading of world resource packs with Forge
+ - fixed connected textures for rotated logs
+ - added option "shadowTranslucent=true|false" to "shaders.properties" - disables translucent blocks in shadow pass
+ - optimized memory allocation
+ - updated Forge compatibility, not backwards compatible
+ - fixed Natural Textures for snow layer sides
+ - added Better Grass for grass paths, snowy podzol and snowy mycelium
+ - added Better Grass configuration (per block, textures)
+ - fixed ForgeHooksClient.onDrawBlockHighlight
+ - fixed off hand rendering with shaders
+ - added shader uniforms "heldItemId2" and "heldBlockLightValue2" 
+ - added shader option Old Hand Light for backward compatibility with shaders packs supporting only main hand light
+ - added option "oldHandLight=true|false" in "shaders.properties"
+ (27.04.2016)
+ 
+OptiFine 1.9.2_HD_U_B1
+ - updated to Minecraft 1.9.2
+ (03.04.2016)
+
+OptiFine 1.9.0_HD_U_B1
+ - fixed memory usage with AF and AA
+ - fixed single-core chunk loading
+ - enabled simple spectral effect when Fast Render, Antialiasing or Shaders are active
+ - fixed chunk loading when changing dimensions 
+ - removed all Mojang content from final JAR  
+ - added support for class patches
+ - updated to Minecraft 1.9
+ - compatible with Forge #1797
+ (26.03.2016)

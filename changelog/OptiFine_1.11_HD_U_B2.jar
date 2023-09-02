@@ -1,0 +1,20 @@
+OptiFine 1.11_HD_U_B2
+ - fixed crash when loading tile entities (flower pot) 
+ - fixed option Screenshot Size to keep the relative size of toolbar and menus
+ - added warning for non-lowercase resource files
+ - fixed custom potion textures
+ - fixed custom potion colors
+ - added option Screenshot Size (1x to 4x)
+ - fixed support for v2 resource packs
+ - compatible with Forge #2157
+(30.11.2016)
+
+OptiFine 1.11_HD_U_B1
+ - fixed invisible entities in multiplayer
+ - fixed crash with ExtraUtilities2 (broken EnderLilly model)
+ - updated entity handling to reflect the Forge rewrite of the entity registry
+ - updated MCP mappings
+ - reorganized options, moved Dynamic Lights and Dynamic FOV to Video Settings
+ - updated to Minecraft 1.11
+ - compatible with Forge #2157
+(24.11.2016)

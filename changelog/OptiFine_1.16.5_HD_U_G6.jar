@@ -1,0 +1,322 @@
+OptiFine 1.16.5_HD_U_G6
+ - updated to 1.16.5
+ - compatible with Forge 36.0.0
+(16.01.2021)
+
+OptiFine 1.16.4_HD_U_G6
+ - added system property "frame.time" to show frame time instead of FPS
+ - fixed cape downloads blocking skin and terrain downloads (#4976)
+ - added support for shaders texture format LabPBR (#5182)
+ - fixed custom uniforms using biomes
+ - optimized antialiasing and anisotropic filtering (prepare)
+ - optimized antialiasing and anisotropic filtering (multidraw)
+ - fixed shaders normal/specular textures with anisotropic filtering
+ - fixed item rendering with shaders and anisotropic filtering
+ - fixed banners, enchanted items, fire and hand outline with AA/AF
+ - disabled antialiasing with fabulous graphics
+ - enabled anisotropic filtering with shaders
+ - fixed item frames with AA/AF
+ - fixed antialiasing and anisotropic filtering (#5153)
+ - fixed crash when when swamp biome isn't registered (#5088)
+ - fixed player items (santa hat) showing on invisible players (#5150)
+ - fixed shaders breaking biome mods (#4880)
+ - fixed custom gui chest type (#5100)
+ - compatible with Forge 35.1.36
+(12.01.2021)
+
+OptiFine 1.16.4_HD_U_G5
+ - not working: antialiasing and anisotropic filtering
+ - fixed chunk forced loading (#4832)
+ - updated to 1.16.4
+ - compatible with Forge 35.0.1
+(06.11.2020)
+
+OptiFine 1.16.3_HD_U_G4
+ - not working: antialiasing and anisotropic filtering
+ - fixed shadow bug with sildurs shaders and campfire (#4372)
+ - added support for Forge modlauncher Target.PRE_CLASS (#4515)
+ - fixed MineColonies GUI, fixed AT invokespecial/virtual (#4582)
+ - added particle culling
+ - updated to 1.16.3
+ - compatible with Forge 34.0.0
+(02.11.2020)
+
+OptiFine 1.16.2_HD_U_G3
+ - not working: antialiasing and anisotropic filtering
+ - fixed smart animations with glowing entities on fire
+ - fixed glowing entities with shaders (#4700)
+ - added loading screen blend mode (#4712)
+ - fixed custom mooshroom mushrooms (#3481)
+ - right click selects previous value in shader options (#4706)
+ - fixed Mojang logo smoothing (#4337)
+ - fixed banner with emissive textures (#4707) 
+ - added CEM for piglin, piglin_brute and zombified_piglin (#4600)
+ - fixed chunks not loading with render distance > 36 (#4261)
+ - added more steps for shaders render quality (#4556)
+ - fixed dolphin CEM (#3051)
+ - fixed server connection with java 9+ (#3773, #3959, #4656, #4667)
+ - added Forge license (#4654)
+ - fixed biome handling with shaders (#4687)
+ - fixed biome handling (#4681, #4658, #4668)
+ - fixed leaking resource on startup (#4678) 
+ - fixed option VSync (#4680)
+ - fixed soul flame particles (#4642)
+ - added shaders uniform playerMood (#4650)
+ - fixed white/black screen with shaders (#4640)
+ - updated to 1.16.2
+ - compatible with Forge 33.0.20
+(28.08.2020)
+
+OptiFine 1.16.1_HD_U_G2
+ - not working: antialiasing and anisotropic filtering
+ - fixed OpenGL errors with Render Regions
+ - removed inactive option Use VBOs, reorganized performance settings
+ - updated Forge compatibility 32.0.98 (#4515)
+ - fixed missing fullscreen resolutions (#4510)
+ - fixed enchanted items with shaders (#4512)
+ - fixed broken textures with some shaders
+ - added wrap and filter modes for raw shader textures (#2905)
+ - fixed translucent blocks with Render Regions (#4504)
+ - fixed CEM with custom emissive textures (#4467)
+ - fixed shaders and custom sky in custom server dimensions (#4287)
+ - fixed CIT custom models (#4223)
+ - optimized chunk rendering when player is above Y=128
+ - fixed Fast Render with shaders (#4442)
+ - optimized Render Regions grouping
+ - fixed zoom to not reset cinematic camera
+ - reimplemented Fast Render, compatible with shaders
+ - fixed Fabulous warning (#4367)
+ - fixed CEM with spider eyes
+ - fixed emissive textures (#4404)
+ - fixed invisible entities on respawn (#4414)
+ - fixed Render Regions
+ - fixed geometry shaders with AMD (#4250)
+ - optimized text rendering
+ - optimized chunk loading
+ - optimized chunk rendering
+ - optimized entity rendering
+ - fixed debug info chunk updates
+ - fixed soul fire and soul campfire animation option (#4328)
+ - fixed CTM for logs (#4320)
+ - fixed clouds with fabulous graphics (#4251)
+ - fixed crimson forest and warped forest particles (#4253)
+ - fixed fast render with fabulous graphics (#4289)
+ - fixed CEM for skeleton horse and zombie horse (#4274)
+ - fixed crash when killing parrot (#4214)
+ - added Entity Distance in performance options (#4206)
+ - fixed white hotbar with shaders and FXAA (#4201)
+ - updated to 1.16.1
+ - compatible with Forge 32.0.98
+(01.08.2020)
+
+OptiFine 1.15.2_HD_U_G1
+ - not working: antialiasing, anisotropic filtering and render regions
+ - fixed shaders to render world border with program textured_lit (#3979)
+ - fixed shaders rendering of hurt mobs and flashing creepers (#3598)
+ - fixed CIT relative texture paths (#4046)
+ - fixed alpha for CUTOUT rendering (#4120)
+ - fixed custom player models
+ - optimized underwater particles
+ - fixed block selection with chunk borders visible (#4119)
+ - fixed lag spikes when breaking blocks near water (#3912)
+ - fixed emissive textures for rails and brewing stand (#4094)
+ - fixed CEM animations (#4093)
+ - fixed emissive crash with enchanted trident (#4092)
+ - fixed emissive textures (#3437)
+ - fixed shaders programs and extended attributes for block breaking animation (#3600) 
+ - fixed shaders entity and block entity programs 
+ - fixed shaders block selection, hitboxes and chunk borders (#3601, #3818)
+ - fixed shaders block breaking texture (#3880)
+ - fixed shaders option separateAO (#4047)
+ - fixed rescaling of shaders normal/specular textures (#3761)
+ - fixed void rendering with shaders (#3673)
+ - fixed shaders light shining in caves (#3593)
+ - fixed shaders rendering of invisible glowing entities (#3996)
+ - fixed cape stuttering when flying around (#3384)
+ - fixed player shadow with shaders in spectator mode (#4022)
+ - fixed CEM bed model (#4035)
+ - fixed Random Entities with CEM (#4025)
+ - fixed CEM animation parameters pos_y, pos_z (#4033)
+ - fixed CIT handheld items and armor (#3276, #3318)
+ - fixed CEM custom texture (#4010)
+ - added CEM donkey and mule chest models 
+ - fixed CEM model textures
+ - added CEM for head_creeper, head_wither_skeleton and head_zombie
+ - fixed resetting CEM for heads when changing resource pack
+ - fixed CEM for banner, bed, chests, ender crystal, ghast, illagers, phantom, dragon 
+ - fixed CEM for sheep, wolf, dolphin, salmon, puffer fish, tropical fish, boat  
+ - fixed CEM for skeleton horse and zombie horse (#3965) 
+ - fixed rain rendering over blocks when picking items (#3956)
+ - fixed shaders rendering of banners, spider eyes and enchantment glint 
+ - fixed shaders depthtex2 (#3646)
+ - fixed profiler smoothing
+ - fixed dark GUI items when running with Forge (#3830)
+ - fixed resizing of texture atlas sprites
+ - fixed loading of custom normal/specular textures
+ - fixed smart animations
+ - added support for shaders
+ - added shortcut key for shader options "F3+O"
+ - fixed Dynamic Lights with Smooth Lighting ON
+ - fixed custom sky and fog colormaps
+ - fixed Dynamic Lights not illuminating player
+ - fixed Dynamic Lights with Smooth Lighting OFF
+ - fixed connected glass panes
+ - fixed CTM overlays
+ - fixed Smart Animations for GUI overlay
+ - fixed custom lightmap affecting the GUI
+ - fixed disabled fog to affect all entities and block entities
+ - fixed option sliders registering outside clicks
+ - fixed CEM for baby horse and llama
+ - fixed chunks not loading due to configured shaders
+ - fixed Random Entities depending on view distance
+ - fixed Custom Sky
+ - fixed fog in the Nether 
+ - fixed Smart Animations for entities on fire 
+ - fixed option Graphics depending on Dropped Items
+ - fixed Natural Textures and Better Snow
+ - fixed visual artifacts when manually placing blocks
+ - fixed buttons in Chat Settings screen
+ - fixed render distance above 32
+ - fixed lighting of magma blocks
+ - fixed handheld item flicker with dynamic lights
+ - fixed dynamic lights for block entities and particles
+ - updated to 1.15.2
+ - compatible with Forge 31.2.21
+(24.06.2020)
+
+OptiFine 1.14.4_HD_U_F6
+ - fixed flickering of min. FPS
+ - fixed debug profiler sections in 1.14.4 (MC-158870)
+ - compatible with Forge 28.1.56
+(05.12.2019)
+
+OptiFine 1.14.4_HD_U_F5
+ - fixed crash when reloading textures (#3125)
+ - fixed invisible mobs around the player
+ - fixed shaders integer texture formats (#3109)
+ - compatible with Forge 28.1.56
+(04.12.2019)
+
+OptiFine 1.14.4_HD_U_F4
+ - fixed crash with Java 9+ (#2964)
+ - fixed shaders to stop chunk updates on shader pack reload (#3001)
+ - added CEM for cat, fox, panda, phantom, pillager, ravager, turtle and giant (#1822) 
+ - fixed Emissive Textures with Astral Sorcery (#1581)
+ - added loading screen bar outline color (#2558)
+ - fixed clock in quick bar not animated with Forge (#2889)
+ - added CEM for fish (cod, salmon, puffer fish, tropical fish)
+ - fixed CEM for witch
+ - fixed CTM corners with innerSeams
+ - updated installer to set OptiFine profile logo
+ - added Random Entities check for moon phase, day time and weather (#2931)
+ - added Random Entities check for health (#2958)
+ - fixed Cape Editor screen to allow copy link to clipboard on error
+ - fixed Forge access transformers for inner classes
+ - fixed Forge access transformers removing final
+ - added Random Entities check for baby mobs (#2832)
+ - fixed Smart Animations for blocks in minecarts (#2731)
+ - fixed Forge access transformers (#2737)
+ - added shaders program "gbuffers_entities_glowing" (#2328)
+ - added compatibility with Forge ModLauncher (#2148)
+ - compatible with Forge 28.1.56
+(23.10.2019)
+
+OptiFine 1.14.4_HD_U_F3
+ - fixed CEM handling of attached models (#2323)
+ - fixed slider options tooltips (#2718)
+ - added connected textures for resource pack "Programmer Art"
+ - fixed renderType for legacy (pre-1.13) shaders
+ - added shaders instancing for composite programs 
+ - added shaders instancing as alternative to geometry shaders
+ - fixed shaders #include on first line
+ - internally compatible with Forge 28.0.23 (can't be installed yet)
+(06.08.2019)
+
+OptiFine 1.14.4_HD_U_F2
+ - updated to 1.14.4
+ - not compatible with Forge
+(20.07.2019)
+
+OptiFine 1.14.3_HD_U_F2
+ - fixed crash in CIT (#2624)
+ - added support for raw shader textures (#2631)
+ - fixed geometry shaders on Intel/AMD (#2359)
+ - updated Forge patches
+ - fixed leashed horse GUI with shaders (#2545)
+ - internally compatible with Forge 27.0.51 (can't be installed yet)
+(16.07.2019)
+
+OptiFine 1.14.3_HD_U_F1
+ - fixed shaders horizon rendering
+ - restored void rendering, needed by shaders sky (#2522) 
+ - fixed launchwrapper to allow patching of "com.mojang.blaze3d"
+ - updated to 1.14.3
+ - not compatible with Forge
+(27.06.2019)
+
+OptiFine 1.14.2_HD_U_F1_pre15
+ - fixed compatibility with Java 9+
+ - catch exceptions while generating a crash report
+ - fixed crash when reloading resources (missing texture sprite)
+ - fixed mipmap levels and mipmap type
+ - fixed block aliases without shader pack
+ - fixed crash in ItemRenderer
+ - fixed flickering chests (#2467)
+ - fixed sign edit screen in multiplayer (#2422, #2091)
+ - fixed crash in sprite resize (#2481)
+ - fixed crash when reloading resources
+ - fixed maximum mipmap level detection
+ - fixed villager CEM
+ - fixed tile entity names (#2472)
+ - fixed custom GUI names
+ - fixed villager professions
+ - fixed load visible chunks
+ - fixed particle collision (#2408)
+ - added Random Entities check for wolf/cat collar colors (#2447)
+ - fixed Emissive Textures on blocks/items (#2461)
+ - fixed Custom Fonts crash (#2443)
+ - fixed CTM compact to use vanilla UV corrections (#2460)
+ - fixed Mipmap Levels to reload resources
+ - fixed titles of settings screens
+ - fixed CTM overlay crash (#2436)
+ - fixed crossbow CIT models (#2404)
+ - fixed CTM compact for glass panes (#2423)
+ - added custom loading screen colors
+ - fixed double click sound on Video Settings
+ - disabled void rendering when the player is above Y=64
+ - fixed sky fog
+ - fixed shader option sliders
+ - added compatibility block mapping for legacy (pre-1.13) shaders
+ - updated to 1.14.2
+ - not compatible with Forge
+(23.06.2019)
+
+OptiFine 1.14_HD_U_F1_pre6
+ - not all features working, not all optimizations added, may crash
+ - fixed crash with animated paintings (#2393)
+ - fixed mooshroom, parrot on shoulder, smooth world, save/load VBOS
+ - fixed CIT armor
+ - fixed lagometer and profiler
+ - fixed cape and player items position
+ - fixed shaders camera position to include eye height (#2390)
+ - fixed parsing of shaders macro: #if 0
+ - fixed font memory allocation
+ - fixed player shadow in first-person view
+ - fixed shaders entity shadows and isEyeInWater
+ - fixed Max Framerate: VSync
+ - fixed configurable animations
+ - fixed ghost dynamic lights from dead mobs
+ - fixed slab model rendering
+ - optimized memory allocation
+ - enabled server lagometer
+ - fixed default CTM to use 1.14 textures
+ - fixed texture atlas sprite loading  
+ - fixed double click sound in options
+ - fixed main menu panorama
+ - fixed mojang logo
+ - fixed option tooltips
+ - fixed option GUI Scale
+ - fixed crash in shaders options 
+ - updated to 1.14
+ - not compatible with Forge
+(27.05.2019)

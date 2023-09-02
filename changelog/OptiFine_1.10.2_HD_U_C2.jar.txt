@@ -1,0 +1,33 @@
+OptiFine 1.10.2_HD_U_C2
+ - fixed flowing lava texture
+ - fixed texture atlas to correctly grow up to the maximum texture size
+ - added shader properties "sun=true|false" and "moon=true|false"
+ - fixed Danymic Lights for entities falling outside of the world (y < 0)
+ - fixed connected glass pane to only remove up/down segment texture when neighbour has a segment at this side
+ - fixed CIT damage as percentage
+ - compatible with Forge #2002
+ (06.07.2016)
+
+OptiFine 1.10.2_HD_U_C1
+ - added check for 3D Anaglyph + Shaders
+ - added support for shader formats R3_G3_B2, RGB5_A1, RGB10_A2, R11F_G11F_B10F
+ - updated to Minecraft 1.10.2
+ - compatible with Forge #2002
+ (25.06.2016)
+ 
+OptiFine 1.10_HD_U_B7
+ - fixed water rendering with top half slabs
+ - changed option "Fullscreen Mode" to slider
+ - fixed fullscreen mode to show all available resolutions 
+ - fixed custom armor to use base texture when layers are not defined  
+ (19.06.2016)
+ 
+OptiFine 1.10_HD_U_B6
+ - fixed PureBDCraft saplings in GUI, removed hack for plants, resource packs should use "symmetry=all" for flowers 
+ - fixed water block color from below
+ - fixed chunk loading race condition
+ - fixed exp orbs flashing
+ - fixed connected textures for glass panes to affect only sides (keep top and bottom textures)
+ - fixed VSync to be loaded correctly
+ - ported OptiFine B6 for 1.9.4 to 1.10  
+ (14.06.2016)

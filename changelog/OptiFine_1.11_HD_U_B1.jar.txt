@@ -1,0 +1,9 @@
+OptiFine 1.11_HD_U_B1_pre
+ - fixed invisible entities in multiplayer
+ - fixed crash with ExtraUtilities2 (broken EnderLilly model)
+ - updated entity handling to reflect the Forge rewrite of the entity registry
+ - updated MCP mappings
+ - reorganized options, moved Dynamic Lights and Dynamic FOV to Video Settings
+ - updated to Minecraft 1.11
+ - compatible with Forge #2157
+ (24.11.2016)

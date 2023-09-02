@@ -1,0 +1,197 @@
+OptiFine 1.9.2_HD_U_D8
+ - fixed crash when Forge has mod dependency errors and skips the TextureMap loading (Forge #2273+)
+ - added shaders shadow optimization "shadowDistanceRenderMul" (#489) 
+ - fixed shaders loading "block.properties" (#569) 
+ - added shaders uniforms "nightVision", "blindness" and "screenBrightness"
+ - added shaders property "vignette"
+ - fixed enchanted items in hotbar when running with Forge and vignette is disabled (#487) 
+ - added shader macro MC_VERSION
+ - fixed shaders off hand rendering when main hand has echanted item (#481)
+(04.05.2017)
+
+OptiFine 1.9.2_HD_U_D7
+ - updated shaders: added gbuffers uniforms gaux1 to gaux4, only used as custom textures
+ - fixed Forge RenderHandEvent to work with shaders 
+ - updated shaders: fixed depth of translucent handheld objects
+ - fixed CIT for elytra on armor stand
+ - updated shaders: added support for custom textures
+ - updated CustomItems: NBT integer as hex color, list size as "count", property "hand=any|main|off"
+ - updated CustomColors to reload banner textures
+ - updated GUI Scale: right click = previous value, Shift + click = reset
+ - fixed FontRender.charWidth causing crash with Forge #2223
+ - updated shader options: added non-numerical values "#define SHADOW_MODE HARD // [HARD SOFT REAL]"
+ - updated shader options: added user friendly values from resources
+ - updated shader options: right click = previous value, Shift + click = reset
+ - added F3+L to force loading of all visible chunks 
+ - added shader macros for OpenGL extensions
+ - added shader macros for OS, OpenGL version, GLSL version, GPU vendor and GPU renderer 
+ - added shader uniform "worldDay"
+ - fixed shader uniform "worldTime" overflow for very old worlds
+ - extended GUI Scale to support 4K displays
+ - optimized resource loading
+ - optimized GUI lists to render only visible slots (resource pack list)
+ - fixed shaders to save options on ESC 
+ - added support for "palette.format" from "color.properties"
+ - added fix for MC-98707
+ - fixed crash with Railcraft and AA/AF enabled 
+ - fixed NPE in shaders when renderViewEntity is NULL
+ - fixed transparent hand with shaders when the world border is visible
+ - fixed CEM animation operator "%"
+ - fixed CEM for ender crystal
+ - added Custom Sky option "weather=clear|rain|thunder"
+ - fixed cloud color transitions
+ - fixed Custom Sky not visible for Render Distance below 8 chunks
+ - added support for animated normal and specular textures
+ - added shaders uniforms "frameCounter" and "frameTime" 
+ - added shaders option to skip framebuffer texture clear
+ - fixed fog affecting the debug renderer
+ - fixed CEM models glowing with shaders (spider, enderman, dragon)
+ - fixed "nbsp" character to render as space
+ - fixed shaders bug: centerDepthSmooth not working when gaux4 is active
+ - fixed CEM custom texture overriding TileEntity destroy overlay 
+ - fixed CEM model scale
+ - fixed minecart CEM model
+ - fixed render distance Extreme in The End
+ - reorganized reflection support
+ - fixed ambient sounds not playing (vanilla bug MC-91803)
+ - added negative biome check ("biomes=!Biome1 Biome2 ..." - all biomes except the given ones)
+ - fixed shaders using upPosition from previous frame
+ - added block ID mapping for shaders
+ - updated documentation
+ - updated Custom Items to recognize enchantment names 
+ - fixed CEM for ender dragon and enderman
+ - updated shaders to use "gbuffers_armor_glint" for enchanted handheld and dropped items
+ - fixed option Screenshot Size to keep the relative size of toolbar and menus
+ - fixed crash when loading tile entities (flower pot) 
+ - fixed option Screenshot Size to keep the relative size of toolbar and menus
+ - fixed custom potion textures
+ - fixed custom potion colors
+ - added option Screenshot Size (1x to 4x)
+ - fixed invisible entities in multiplayer 
+ - fixed crash with ExtraUtilities2 (broken EnderLilly model)
+ - fixed end sky custom color
+ - added CEM animation operator "%" and function "fmod(x,y)"
+ - added option Advanced Tooltips - shows extended information for items and shader options (F3+H)
+ - extended the shaders "#include" parser to add "#line" directives with file and line numbers
+ - updated CTM overlays to work for transparent blocks
+ - added xporb animation duration (xporb.time in color.properties, value in ms)
+ - fixed Forge spash screen crashing on Mac OS
+ - added custom item durability colors: assets/minecraft/mcpatcher/colormap/durability.png
+ - fixed "IllegalStateException: Splash thread", caused by "FileNotFoundException: mcpatcher/font/ascii.png"
+ - better error handling for "IllegalStateException: Already building!"
+ - optimized render distance Extreme (32 chunks)
+ - added CEM scale variables "sx", "sy" and "sz"
+ - fixed custom sign text color
+ - fixed Forge compatibility (Extra Utilities 2 crash)
+ - extended CEM to load textures from vanilla folders
+ - added system property "animate.model.living", when "true" all mob models are rendered as moving
+ - added custom model animations
+ - added Custom Entity Models (CEM)
+ - fixed rendering of invalid models (null quad facing)
+ - custom models for entities (mobs, boats, minecarts, ...) and tile entities (chests, signs, ...)
+ - fixed detection of maximum texture size for modern GPUs 
+ - fixed entity rendering when standing still
+ - fixed panorama missing texture when changing resource pack 
+ - fixed CTM block matching (stained glass "light_blue")
+ - added shader options for back-face rendering per layer
+ - fixed grass and flowers bounding box to match render model
+ - fixed flickering CTM overlays for rotated models
+ - fixed custom items handheld rendering  
+ - fixed CTM overlays to work only for full face quads
+ - fixed Custom Items crash when referencing "assets/minecraft/textures/items"
+ - fixed face culling for custom pane models
+ - enabled shader variable "ambientOcclusionLevel"
+ - fixed Better Snow with shaders and waving grass
+ - optimized entity rendering
+ - fixed Fast Render default to OFF
+ - added custom panoramas
+ - added CTM method overlay (block transitions)
+ - fixed CTM horizontal and vertical for top and bottom faces
+ - added CTM method "ctm_compact" - uses 5 textures instead of 47
+ - fixed flowing lava texture
+ - fixed texture atlas to correctly grow up to the maximum texture size
+ - added shader properties "sun=true|false" and "moon=true|false"
+ - fixed Danymic Lights for entities falling outside of the world (y < 0)
+ - fixed connected glass pane to only remove up/down segment texture when neighbour has a segment at this side
+ - fixed CIT damage as percentage
+ - added check for 3D Anaglyph + Shaders
+ - added support for shader formats R3_G3_B2, RGB5_A1, RGB10_A2, R11F_G11F_B10F
+ - fixed water rendering with top half slabs
+ - changed option "Fullscreen Mode" to slider
+ - fixed fullscreen mode to show all available resolutions 
+ - fixed custom armor to use base texture when layers are not defined  
+ - fixed PureBDCraft saplings in GUI, removed hack for plants, resource packs should use "symmetry=all" for flowers 
+ - fixed water block color from below
+ - fixed chunk loading race condition
+ - fixed connected textures for glass panes to affect only sides (keep top and bottom textures)
+ - fixed VSync to be loaded correctly
+ - fixed custom animations to check for invalid coordinates
+ - fixed rendering of water next to slabs, farmland, grass path, beacon and slime blocks 
+ - fixed natural textures for grass_path_side
+ - fixed side of connected glass panes
+ - added shader option "underwaterOverlay"
+ - fixed F3+R to reload shader properties
+ (190_B5)
+ - fixed custom sheep colors
+ - fixed dynamic lights: blaze rod, blaze powder, glowstone dust, prismarine crystals, magma cream, spectator mode, tnt, creeper
+ - fixed unicode font rendering with HD resource packs
+ - added shaders option dynamicHandLight - can be used to disable the dynamic hand light if the shader implements its own hand light
+ - added option Details -> Alternate Blocks
+ - optimized chunk updates
+ - added Dynamic Lights (off, fast, fancy)
+ - fixed barrier particles performance
+ - fixed barrier block in off hand to show barrier particles
+ - fixed world border to use program gbuffers_textured_lit
+ - fixed clouds to use program gbuffers_clouds
+ - replaced shader uniforms entityHurt and entityFlash with entityColor (rgba)
+ - fixed enchanted armor to use program gbuffers_armor_glint
+ - added shader uniforms entityId and tileEntityId
+ - removed Forge UV hack, fixed 3D item sides
+ - updated shaders documentation
+ - added shader suppot for more texture formats (signed normalized, integer, unsigned integer)
+ - fixed shader uniform "entityHurt" to not affect other entities
+ (16.03.2017)
+
+OptiFine 1.9.2_HD_U_B3
+ - added folder selection in installer
+ - fixed "#include" for vertex shaders
+ - added custom textures for elytra, use "type=elytra" in the CIT properties
+ - added option "Details -> Dynamic FOV" - enables or disables the FOV change when flying or sprinting
+ - skip classloader injection when loaded in a Forge server
+ - added "offsetBold" in font properties (assets/minecraft/textures/font/ascii.properties), default is 1.0 for 16x and 0.5 for 32x and above
+ - updated CTM for rotated pillars (wood, quartz) to allow properties to select rotated variants
+ - fixed rotated logs with Fancy CTM
+ (10.05.2016)
+
+OptiFine 1.9.2_HD_U_B2
+ - fixed block shading with Forge
+ - added build number
+ - fixed loading of world resource packs with Forge
+ - fixed connected textures for rotated logs
+ - added option "shadowTranslucent=true|false" to "shaders.properties" - disables translucent blocks in shadow pass
+ - optimized memory allocation
+ - updated Forge compatibility, not backwards compatible
+ - fixed Natural Textures for snow layer sides
+ - added Better Grass for grass paths, snowy podzol and snowy mycelium
+ - added Better Grass configuration (per block, textures)
+ - fixed ForgeHooksClient.onDrawBlockHighlight
+ - fixed off hand rendering with shaders
+ - added shader uniforms "heldItemId2" and "heldBlockLightValue2" 
+ - added shader option Old Hand Light for backward compatibility with shaders packs supporting only main hand light
+ - added option "oldHandLight=true|false" in "shaders.properties"
+ (27.04.2016)
+ 
+OptiFine 1.9.2_HD_U_B1
+ - updated to Minecraft 1.9.2
+ (03.04.2016)
+
+OptiFine 1.9.0_HD_U_B1
+ - fixed memory usage with AF and AA
+ - fixed single-core chunk loading
+ - enabled simple spectral effect when Fast Render, Antialiasing or Shaders are active
+ - fixed chunk loading when changing dimensions 
+ - removed all Mojang content from final JAR  
+ - added support for class patches
+ - updated to Minecraft 1.9
+ - compatible with Forge #1797
+ (26.03.2016)

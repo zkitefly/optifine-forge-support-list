@@ -1,0 +1,166 @@
+OptiFine 1.10_HD_U_E3
+ - fixed lowercase check
+ - fixed swamp water color when Swamp Colors is OFF
+ - fixed options to be saved in UTF-8 (MC-117449)
+ - fixed conflict with Emojiful
+ - added shader option sliders
+ - added shader texture formats R16F, RG16F, RGB16F, RGBA16F and RGB9_E5
+ - fixed CTM, Custom Colors and Shaders block matching to better handle missing blocks
+ - added support for CIT models
+ - fixed compatibility with Forge key modifiers (#518)
+ - updated installer to use launchwrapper 1.12
+ - updated CTM to allow overlays on non-full flocks (farmland, grass path)
+ - fixed CTM compact with translucent textures (stained glass)
+ - extended CIT NBT rules, values starting with "!" perform a negative match (#606)
+ - fixed crash with Forestry when Smart Trees (leaves) is enabled
+ - extended shaders uniform isEyeInWater, added value 2 when the camera is in lava  
+ - fixed tall grass rendering in the End when mipmaps are enabled
+ - fixed item pickup animation using wrong shaders program
+ - fixed entity shadows using wrong shaders programs (spiders, players, enchanted items)
+ - added shaders compatible rendering for end portals
+ - fixed CEM for zombie_pigman
+ - compatible with Forge #2000
+(29.06.2017)
+
+OptiFine 1.10_HD_U_D8
+ - fixed crash when Forge has mod dependency errors and skips the TextureMap loading (Forge #2273+)
+ - added shaders shadow optimization "shadowDistanceRenderMul" (#489) 
+ - fixed shaders loading "block.properties" (#569) 
+ - added shaders uniforms "nightVision", "blindness" and "screenBrightness"
+ - added shaders property "vignette"
+ - fixed enchanted items in hotbar when running with Forge and vignette is disabled (#487) 
+ - added shader macro MC_VERSION
+ - fixed shaders off hand rendering when main hand has echanted item (#481)
+ - compatible with Forge #2000
+(04.05.2017)
+
+OptiFine 1.10_HD_U_D7
+ - updated shaders: added gbuffers uniforms gaux1 to gaux4, only used as custom textures
+ - fixed Forge RenderHandEvent to work with shaders 
+ - updated shaders: fixed depth of translucent handheld objects
+ - fixed CIT for elytra on armor stand
+ - updated shaders: added support for custom textures
+ - updated CustomItems: NBT integer as hex color, list size as "count", property "hand=any|main|off"
+ - updated CustomColors to reload banner textures
+ - updated GUI Scale: right click = previous value, Shift + click = reset
+ - fixed FontRender.charWidth causing crash with Forge #2223
+ - updated shader options: added non-numerical values "#define SHADOW_MODE HARD // [HARD SOFT REAL]"
+ - updated shader options: added user friendly values from resources
+ - updated shader options: right click = previous value, Shift + click = reset
+ - added F3+L to force loading of all visible chunks 
+ - added shader macros for OpenGL extensions
+ - added shader macros for OS, OpenGL version, GLSL version, GPU vendor and GPU renderer 
+ - added shader uniform "worldDay"
+ - fixed shader uniform "worldTime" overflow for very old worlds
+ - extended GUI Scale to support 4K displays
+ - optimized resource loading
+ - optimized GUI lists to render only visible slots (resource pack list)
+ - fixed shaders to save options on ESC 
+ - added support for "palette.format" from "color.properties"
+ - added fix for MC-98707
+ - fixed crash with Railcraft and AA/AF enabled 
+ - fixed NPE in shaders when renderViewEntity is NULL
+ - fixed transparent hand with shaders when the world border is visible
+ - fixed CEM animation operator "%"
+ - fixed CEM for ender crystal
+ - added Custom Sky option "weather=clear|rain|thunder"
+ - fixed cloud color transitions
+ - fixed Custom Sky not visible for Render Distance below 8 chunks
+ - added support for animated normal and specular textures
+ - added shaders uniforms "frameCounter" and "frameTime" 
+ - added shaders option to skip framebuffer texture clear
+ - fixed fog affecting the debug renderer
+ - fixed CEM models glowing with shaders (spider, enderman, dragon)
+ - fixed "nbsp" character to render as space
+ - fixed shaders bug: centerDepthSmooth not working when gaux4 is active
+ - fixed CEM custom texture overriding TileEntity destroy overlay 
+ - fixed CEM model scale
+ - fixed minecart CEM model
+ - fixed render distance Extreme in The End
+ - reorganized reflection support
+ - fixed ambient sounds not playing (vanilla bug MC-91803)
+ - added negative biome check ("biomes=!Biome1 Biome2 ..." - all biomes except the given ones)
+ - fixed shaders using upPosition from previous frame
+ - added block ID mapping for shaders
+ - updated documentation
+ - updated Custom Items to recognize enchantment names 
+ - fixed CEM for ender dragon and enderman
+ - updated shaders to use "gbuffers_armor_glint" for enchanted handheld and dropped items
+ - fixed option Screenshot Size to keep the relative size of toolbar and menus
+ - fixed crash when loading tile entities (flower pot) 
+ - fixed option Screenshot Size to keep the relative size of toolbar and menus
+ - fixed custom potion textures
+ - fixed custom potion colors
+ - added option Screenshot Size (1x to 4x)
+ - fixed invisible entities in multiplayer 
+ - fixed crash with ExtraUtilities2 (broken EnderLilly model)
+ - fixed end sky custom color
+ - added CEM animation operator "%" and function "fmod(x,y)"
+ - added option Advanced Tooltips - shows extended information for items and shader options (F3+H)
+ - extended the shaders "#include" parser to add "#line" directives with file and line numbers
+ - updated CTM overlays to work for transparent blocks
+ - added xporb animation duration (xporb.time in color.properties, value in ms)
+ - fixed Forge spash screen crashing on Mac OS
+ - added custom item durability colors: assets/minecraft/mcpatcher/colormap/durability.png
+ - fixed "IllegalStateException: Splash thread", caused by "FileNotFoundException: mcpatcher/font/ascii.png"
+ - better error handling for "IllegalStateException: Already building!"
+ - optimized render distance Extreme (32 chunks)
+ - added CEM scale variables "sx", "sy" and "sz"
+ - fixed custom sign text color
+ - fixed Forge compatibility (Extra Utilities 2 crash)
+ - extended CEM to load textures from vanilla folders
+ - added system property "animate.model.living", when "true" all mob models are rendered as moving
+ - added custom model animations
+ - added Custom Entity Models (CEM)
+ - fixed rendering of invalid models (null quad facing)
+ - custom models for entities (mobs, boats, minecarts, ...) and tile entities (chests, signs, ...)
+ - fixed detection of maximum texture size for modern GPUs 
+ - fixed entity rendering when standing still
+ - fixed panorama missing texture when changing resource pack 
+ - fixed CTM block matching (stained glass "light_blue")
+ - added shader options for back-face rendering per layer
+ - fixed grass and flowers bounding box to match render model
+ - fixed flickering CTM overlays for rotated models
+ - fixed custom items handheld rendering  
+ - fixed CTM overlays to work only for full face quads
+ - fixed Custom Items crash when referencing "assets/minecraft/textures/items"
+ - fixed face culling for custom pane models
+ - enabled shader variable "ambientOcclusionLevel"
+ - fixed Better Snow with shaders and waving grass
+ - optimized entity rendering
+ - fixed Fast Render default to OFF
+ - added custom panoramas
+ - added CTM method overlay (block transitions)
+ - fixed CTM horizontal and vertical for top and bottom faces
+ - added CTM method "ctm_compact" - uses 5 textures instead of 47
+ - fixed flowing lava texture
+ - fixed texture atlas to correctly grow up to the maximum texture size
+ - added shader properties "sun=true|false" and "moon=true|false"
+ - fixed Danymic Lights for entities falling outside of the world (y < 0)
+ - fixed connected glass pane to only remove up/down segment texture when neighbour has a segment at this side
+ - fixed CIT damage as percentage
+ - compatible with Forge #2000
+ (09.02.2017)
+
+OptiFine 1.10_HD_U_C1
+ - added check for 3D Anaglyph + Shaders
+ - added support for shader formats R3_G3_B2, RGB5_A1, RGB10_A2, R11F_G11F_B10F
+ - compatible with Forge #2000
+ (29.06.2016)
+
+OptiFine 1.10_HD_U_B7
+ - fixed water rendering with top half slabs
+ - changed option "Fullscreen Mode" to slider
+ - fixed fullscreen mode to show all available resolutions 
+ - fixed custom armor to use base texture when layers are not defined  
+ (19.06.2016)
+ 
+OptiFine 1.10_HD_U_B6
+ - fixed PureBDCraft saplings in GUI, removed hack for plants, resource packs should use "symmetry=all" for flowers 
+ - fixed water block color from below
+ - fixed chunk loading race condition
+ - fixed exp orbs flashing
+ - fixed connected textures for glass panes to affect only sides (keep top and bottom textures)
+ - fixed VSync to be loaded correctly
+ - ported OptiFine B6 for 1.9.4 to 1.10  
+ (14.06.2016)

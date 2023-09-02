@@ -1,0 +1,66 @@
+OptiFine 1.7.2_HD_U_E3
+ - removed all Mojang content from final JAR  
+ - added support for class patches
+ - compatible with Forge #1161
+ (15.03.2016)
+
+OptiFine 1.7.2_HD_U_E2
+ - added support for preview versions
+ - fixed entity updates - MoCreature insects
+ - compatible with Forge #1161
+ (23.02.2016)
+ 
+OptiFine 1.7.2_HD_U_E1
+ - fixed Random Mobs in multiplayer worlds
+ - added support for RandomMobs property files (biome, height, weight) 
+ - fixed transparent textures with alpha < 16
+ - fixed logo "mojang.png" to be loaded from resource packs
+ - fixed compass and clock to work when animations are off
+ - extended "mcpatcher/color.properties", added support for "clouds=off"
+ - added custom text colors
+ - added blend method overlay for custom sky
+ - fixed overlapping transitions for custom sky
+ - fixed connected textures to check for server resource pack
+ - fixed rendering of custom unicode fonts
+ - extended crash report
+ - fixed bold text with HD font
+ - unicode character widths are reloaded with the resource pack
+ - optimized remote resource loading with http pipelining
+ - added notification for 32-bit Java running on 64-bit OS
+ - added option Show FPS - displays compact rendering information
+ - added option Vignette: Fast = FPS + 10%
+ - extended option Fast Render with new optimizations: ON = FPS + 10%
+ - fixed Animated Textures to load textures only when enabled
+ - compatible with Forge #1161
+ (21.01.2016)
+
+OptiFine 1.7.2_HD_U_D5
+ - optimized chunk rendering, FPS +30% is possible
+ - report OpenGL errors in chat
+ - compatible with Forge #1147
+ (30.01.2015)
+
+OptiFine 1.7.2_HD_U_D4
+ - various bugfixes
+ - updated Forge compatibility
+ - compatible with Forge #1147
+ (19.12.2014)
+
+OptiFine 1.7.2_HD_U_D3
+ - fixed compatibility with Railcraft and IC2
+ - compatible with Forge #1147
+ (07.07.2014)
+
+OptiFine 1.7.2_HD_U_D1
+ - merged all changes from 1.7.4_HD_U_D1
+ - compatible with Forge #1032
+ (21.02.2014)
+
+OptiFine 1.7.2_HD_U_C2
+ - fixed skin rendering
+ - added support for multiple resource packs
+ - added option Translucent Blocks
+ - added connected stained glass and stained glass panes (also Fancy!)
+ - antialiasing not active
+ - compatible with Forge #998
+ (20.01.2014)

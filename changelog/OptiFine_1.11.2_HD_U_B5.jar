@@ -1,0 +1,49 @@
+OptiFine 1.11.2_HD_U_B5
+ - fixed "nbsp" character to render as space
+ - updated to Minecraft 1.11.2
+(22.12.2016)
+
+OptiFine 1.11_HD_U_B4
+ - fixed shaders bug: centerDepthSmooth not working when gaux4 is active
+ - fixed CEM custom texture overriding TileEntity destroy overlay 
+ - fixed CEM model scale
+ - fixed minecart CEM model
+ - fixed render distance Extreme in The End
+ - reorganized reflection support
+ - compatible with Forge #2188
+(19.12.2016)
+
+OptiFine 1.11_HD_U_B3
+ - added CEM models for evoker, evoker fangs, vex and vindicator 
+ - fixed ambient sounds not playing (vanilla bug MC-91803)
+ - added negative biome check ("biomes=!Biome1 Biome2 ..." - all biomes except the given ones)
+ - fixed shaders using upPosition from previous frame
+ - added block ID mapping for shaders
+ - updated documentation
+ - updated Custom Items to recognize enchantment names 
+ - fixed CEM for ender dragon and enderman
+ - updated shaders to use "gbuffers_armor_glint" for enchanted handheld and dropped items
+ - fixed option Screenshot Size to keep the relative size of toolbar and menus
+ - compatible with Forge #2188
+(19.12.2016)
+
+OptiFine 1.11_HD_U_B2
+ - fixed crash when loading tile entities (flower pot) 
+ - fixed option Screenshot Size to keep the relative size of toolbar and menus
+ - added warning for non-lowercase resource files
+ - fixed custom potion textures
+ - fixed custom potion colors
+ - added option Screenshot Size (1x to 4x)
+ - fixed support for v2 resource packs
+ - compatible with Forge #2157
+(30.11.2016)
+
+OptiFine 1.11_HD_U_B1
+ - fixed invisible entities in multiplayer
+ - fixed crash with ExtraUtilities2 (broken EnderLilly model)
+ - updated entity handling to reflect the Forge rewrite of the entity registry
+ - updated MCP mappings
+ - reorganized options, moved Dynamic Lights and Dynamic FOV to Video Settings
+ - updated to Minecraft 1.11
+ - compatible with Forge #2157
+(24.11.2016)

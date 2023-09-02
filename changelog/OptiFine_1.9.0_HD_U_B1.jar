@@ -1,0 +1,11 @@
+OptiFine 1.9.0_HD_U_B1
+ - fixed memory usage with AF and AA
+ - fixed single-core chunk loading
+ - enabled simple spectral effect when Fast Render, Antialiasing or Shaders are active
+ - fixed chunk loading when changing dimensions 
+ - removed all Mojang content from final JAR  
+ - added support for class patches
+ - updated to Minecraft 1.9
+ - compatible with Forge #1797
+ (26.03.2016)
+ 
