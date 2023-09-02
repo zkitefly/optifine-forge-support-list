@@ -56,8 +56,8 @@ jobs:
           # echo "Done!!"
           echo "run g!!!"
           python3 g.py
-          echo "run optifine-download!!!
-          python3 optifine-download.py"
+          echo "run optifine-download!!!"
+          python3 optifine-download.py
           echo "Done!!!"
       - name: Commit
         if: steps.check_update.outputs.changed == 'true'
