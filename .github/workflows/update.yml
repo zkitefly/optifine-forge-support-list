@@ -33,6 +33,7 @@ jobs:
       - name: Check update
         id: check_update
         run: |
+          python3 optifine.py
           wget https://bmclapi2.bangbang93.com/optifine/versionList -O versionlist.json
           git add -A
           if git diff-index --quiet HEAD; then
