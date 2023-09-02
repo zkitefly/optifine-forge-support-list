@@ -10,6 +10,7 @@ on:
       - './o.py'
       - './a.py'
       - './optifine.py'
+      - './optifine-download.py'
   schedule:
     - cron: '0 * * * *'
 
@@ -23,7 +24,7 @@ jobs:
         run: |
           sudo timedatectl set-timezone 'Asia/Shanghai'
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
@@ -55,6 +56,8 @@ jobs:
           # echo "Done!!"
           echo "run g!!!"
           python3 g.py
+          echo "run optifine-download!!!
+          python3 optifine-download.py"
           echo "Done!!!"
       - name: Commit
         if: steps.check_update.outputs.changed == 'true'
