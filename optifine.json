@@ -1,35 +1,59 @@
 [
     {
-        "name": "1.20.1-OptiFine_HD_U_I6_pre6",
-        "time": "2023/07/27",
+        "name": "1.20.6-OptiFine_HD_U_I9_pre1",
+        "time": "2024/06/06",
         "ispreview": true,
-        "mcversion": "1.20.1",
-        "filename": "preview_OptiFine_1.20.1_HD_U_I6_pre6.jar",
-        "forge": "47.1.43"
+        "mcversion": "1.20.6",
+        "filename": "preview_OptiFine_1.20.6_HD_U_I9_pre1.jar",
+        "forge": null
     },
     {
-        "name": "1.20.1-OptiFine_HD_U_I6_pre5",
-        "time": "2023/07/26",
+        "name": "1.20.4-OptiFine_HD_U_I8_pre4",
+        "time": "2024/03/23",
         "ispreview": true,
-        "mcversion": "1.20.1",
-        "filename": "preview_OptiFine_1.20.1_HD_U_I6_pre5.jar",
-        "forge": "47.1.43"
+        "mcversion": "1.20.4",
+        "filename": "preview_OptiFine_1.20.4_HD_U_I8_pre4.jar",
+        "forge": "49.0.31"
     },
     {
-        "name": "1.20.1-OptiFine_HD_U_I6_pre4",
-        "time": "2023/07/26",
+        "name": "1.20.4-OptiFine_HD_U_I8_pre3",
+        "time": "2024/03/21",
         "ispreview": true,
-        "mcversion": "1.20.1",
-        "filename": "preview_OptiFine_1.20.1_HD_U_I6_pre4.jar",
-        "forge": "47.1.0"
+        "mcversion": "1.20.4",
+        "filename": "preview_OptiFine_1.20.4_HD_U_I8_pre3.jar",
+        "forge": "49.0.31"
     },
     {
-        "name": "1.20.1-OptiFine_HD_U_I6_pre3",
-        "time": "2023/07/16",
+        "name": "1.20.4-OptiFine_HD_U_I8_pre2",
+        "time": "2024/03/20",
         "ispreview": true,
+        "mcversion": "1.20.4",
+        "filename": "preview_OptiFine_1.20.4_HD_U_I8_pre2.jar",
+        "forge": "49.0.31"
+    },
+    {
+        "name": "1.20.4-OptiFine_HD_U_I7",
+        "time": "2024/03/17",
+        "ispreview": false,
+        "mcversion": "1.20.4",
+        "filename": "OptiFine_1.20.4_HD_U_I7.jar",
+        "forge": "49.0.31"
+    },
+    {
+        "name": "1.20.2-OptiFine_HD_U_I7_pre1",
+        "time": "2023/12/21",
+        "ispreview": true,
+        "mcversion": "1.20.2",
+        "filename": "preview_OptiFine_1.20.2_HD_U_I7_pre1.jar",
+        "forge": null
+    },
+    {
+        "name": "1.20.1-OptiFine_HD_U_I6",
+        "time": "2023/12/21",
+        "ispreview": false,
         "mcversion": "1.20.1",
-        "filename": "preview_OptiFine_1.20.1_HD_U_I6_pre3.jar",
-        "forge": "47.0.35"
+        "filename": "OptiFine_1.20.1_HD_U_I6.jar",
+        "forge": "47.2.18"
     },
     {
         "name": "1.20.1-OptiFine_HD_U_I5",
